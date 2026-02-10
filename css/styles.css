@@ -1,11 +1,25 @@
+ul,
+ol {
+    list-style-type: none;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor
+}           
+
 button {
-    background-color: #4d5ae5
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .logo {
@@ -19,13 +33,6 @@ button {
     color: #2e2f42;
 }
 
-.nav-link {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #2e2f42;
-    text-decoration: none;
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -87,7 +94,6 @@ button {
     margin-bottom: 8px;
 }
 
-/* ===== Team ===== */
 .team {
     background-color: #f4f4fd;
     padding: 60px 0;
