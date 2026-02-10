@@ -9,9 +9,13 @@ body {
     background-color: #ffffff;
 }
 
+a:hover {
+    color: #404bbf;
+}
+
 a {
     text-decoration: none;
-    color: currentColor
+    color: currentColor; /
 }           
 
 button {
