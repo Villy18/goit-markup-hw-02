@@ -1,3 +1,4 @@
+
 ul,
 ol {
     list-style-type: none;
@@ -7,6 +8,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    letter-spacing: 0.02em;
 }
 
 a:hover {
@@ -68,6 +70,7 @@ button {
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
@@ -125,7 +128,12 @@ button {
 }
 
 .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .team {
@@ -156,8 +164,14 @@ button {
 }
 
 .portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
 }
+
 .portfolio {
     padding: 60px 0;
 }
